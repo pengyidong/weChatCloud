@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{list}}" wx:key="index">
+    <view>城市：{{item.city}} ----- {{item.region}}</view>
+  </view>
+</view>
