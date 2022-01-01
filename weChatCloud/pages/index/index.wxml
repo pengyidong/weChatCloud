@@ -1,6 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <view wx:for="{{list}}" wx:key="index">
-    <view>城市：{{item.city}} ----- {{item.region}}</view>
-  </view>
+  <van-cell wx:for="{{list}}" wx:key="index" link-type="navigateTo" url="{{item.url}}" title="{{item.name}}" is-link />
 </view>

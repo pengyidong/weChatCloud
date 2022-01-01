@@ -1,0 +1,7 @@
+.item-btn {
+  padding: 20rpx 40rpx;
+  background: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  color: #FFFFFF;
+  font-size: 26rpx;
+  border-radius: 100rpx;
+}
